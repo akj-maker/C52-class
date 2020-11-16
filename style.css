@@ -1,0 +1,79 @@
+h1 {
+    color: white;
+
+}
+ .menu a {
+
+margin-left: 40px;
+ }
+
+body {
+
+    background-color: dodgerblue
+}
+a:link { 
+    color: seagreen;
+}
+a:visited {
+color: rgb(255, 0, 0);
+
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+
+position: relative;
+}
+
+.item p {
+
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    opacity: 0; 
+  
+} 
+.item:hover p {
+    opacity: 1;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.item img {
+    opacity: 1;
+}
+
+.item:hover img {
+    opacity: 0.5;
+}
+
+p,h2{
+    text-align: center;
+}
